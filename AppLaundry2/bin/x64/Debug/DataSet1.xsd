@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_pesanan" msprop:Generator_TableClassName="tb_pesananDataTable" msprop:Generator_TableVarName="tabletb_pesanan" msprop:Generator_TablePropName="tb_pesanan" msprop:Generator_RowDeletingName="tb_pesananRowDeleting" msprop:Generator_RowChangingName="tb_pesananRowChanging" msprop:Generator_RowEvHandlerName="tb_pesananRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_pesananRowDeleted" msprop:Generator_UserTableName="tb_pesanan" msprop:Generator_RowChangedName="tb_pesananRowChanged" msprop:Generator_RowEvArgName="tb_pesananRowChangeEvent" msprop:Generator_RowClassName="tb_pesananRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No_Order" msprop:Generator_ColumnVarNameInTable="columnNo_Order" msprop:Generator_ColumnPropNameInRow="No_Order" msprop:Generator_ColumnPropNameInTable="No_OrderColumn" msprop:Generator_UserColumnName="No_Order" type="xs:string" minOccurs="0" />
+              <xs:element name="Tgl_Order" msprop:Generator_ColumnVarNameInTable="columnTgl_Order" msprop:Generator_ColumnPropNameInRow="Tgl_Order" msprop:Generator_ColumnPropNameInTable="Tgl_OrderColumn" msprop:Generator_UserColumnName="Tgl_Order" type="xs:string" minOccurs="0" />
+              <xs:element name="Tgl_Rencana_Selesai" msprop:Generator_ColumnVarNameInTable="columnTgl_Rencana_Selesai" msprop:Generator_ColumnPropNameInRow="Tgl_Rencana_Selesai" msprop:Generator_ColumnPropNameInTable="Tgl_Rencana_SelesaiColumn" msprop:Generator_UserColumnName="Tgl_Rencana_Selesai" type="xs:string" minOccurs="0" />
+              <xs:element name="Jml_Pakaian" msprop:Generator_ColumnVarNameInTable="columnJml_Pakaian" msprop:Generator_ColumnPropNameInRow="Jml_Pakaian" msprop:Generator_ColumnPropNameInTable="Jml_PakaianColumn" msprop:Generator_UserColumnName="Jml_Pakaian" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Harga" msprop:Generator_ColumnVarNameInTable="columnTotal_Harga" msprop:Generator_ColumnPropNameInRow="Total_Harga" msprop:Generator_ColumnPropNameInTable="Total_HargaColumn" msprop:Generator_UserColumnName="Total_Harga" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama_Pelanggan" msprop:Generator_ColumnVarNameInTable="columnNama_Pelanggan" msprop:Generator_ColumnPropNameInRow="Nama_Pelanggan" msprop:Generator_ColumnPropNameInTable="Nama_PelangganColumn" msprop:Generator_UserColumnName="Nama_Pelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
